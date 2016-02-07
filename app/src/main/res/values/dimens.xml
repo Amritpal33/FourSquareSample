@@ -1,0 +1,39 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <!--Global dimens-->
+    <dimen name="globalMarginLarge">24dp</dimen>
+    <dimen name="globalMargin">16dp</dimen>
+    <dimen name="globalMarginMid">8dp</dimen>
+
+    <!--Global dimens-->
+    <dimen name="globalPaddingLarge">24dp</dimen>
+    <dimen name="globalPadding">16dp</dimen>
+    <dimen name="globalPaddingMid">8dp</dimen>
+
+    <!--Text sizes-->
+
+    <dimen name="cellTitleTextSize">15sp</dimen>
+    <dimen name="cellSubtitleTextSize">13sp</dimen>
+
+
+
+    <!--Slider dimens-->
+    <dimen name="sliderSubtitleMarginBottom">18dp</dimen>
+    <dimen name="sliderWidth">320dp</dimen>
+    <dimen name="sliderHeight">202dp</dimen>
+    <dimen name="sliderIndicatorWidth">8dp</dimen>
+    <dimen name="sliderIndicatorHeight">8dp</dimen>
+    <dimen name="sliderSubtitleMargin">6dp</dimen>
+
+
+    <!--MultiCycler dimensions-->
+    <dimen name="moviesTileWidth">130dp</dimen>
+    <dimen name="moviesTileHeight">173dp</dimen>
+    <dimen name="overlayHeight">60dp</dimen>
+    <dimen name="movieCyclerRowHeight">233dp</dimen>
+
+</resources>

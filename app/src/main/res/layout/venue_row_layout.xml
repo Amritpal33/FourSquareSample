@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- android:background="@color/globalLightGreyBlackThemeColor"
+            android:src="@drawable/placeholder_small"-->
+        <ImageView
+            android:id="@+id/imgVenue"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:scaleType="fitXY"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/globalPadding">
+
+            <TextView
+                android:id="@+id/tvVenueName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="qwerty"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="@dimen/cellTitleTextSize"/>
+
+            <TextView
+                android:id="@+id/tvVenueAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingRight="@dimen/globalPaddingMid"
+                android:singleLine="true"
+                android:text="qwerty"
+                android:textSize="@dimen/cellSubtitleTextSize"/>
+
+            <TextView
+                android:id="@+id/tvVenueRating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="qwerty"
+                android:textSize="@dimen/cellSubtitleTextSize"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>
