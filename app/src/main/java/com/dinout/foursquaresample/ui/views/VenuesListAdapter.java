@@ -84,7 +84,7 @@ public class VenuesListAdapter extends BaseAdapter
 
         public void setData(Context context, VenuesVO data)
         {
-            Picasso.with(context).load(data.getPhotos().getPhotoUrl()).into(_venueImage);
+            Picasso.with(context).load(data.getPhotos().getDefaultPhotoUrl()).into(_venueImage);
             _venueName.setText(data.getName());
             _venueAddress.setText(String.format("%s, %s, %s", data.getLocation().getAddress(), data.getLocation().getCrossStreet(), data.getLocation().getCity()));
             _venueRating.setText("Rating: " + new DecimalFormat("#0.0").format(data.getRating()));

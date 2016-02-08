@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="@dimen/globalPadding"
+                    android:orientation="horizontal"
+                    android:paddingTop="@dimen/globalPaddingMid">
+
+        <ImageView
+            android:id="@+id/userImage"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/globalMarginMid"
+            android:layout_toRightOf="@+id/userImage"/>
+
+        <TextView
+            android:id="@+id/tvCreatedTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tvUserName"
+            android:layout_marginLeft="@dimen/globalMarginMid"
+            android:layout_toRightOf="@+id/userImage"/>
+
+        <TextView
+            android:id="@+id/tvReviews"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userImage"
+            android:layout_marginTop="@dimen/globalMarginMid"
+            android:ellipsize="end"
+            android:singleLine="false"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@+id/tvReviews"
+        android:layout_marginTop="@dimen/globalMarginMid"
+        android:background="@android:color/black"/>
+</LinearLayout>
+

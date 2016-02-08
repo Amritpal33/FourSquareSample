@@ -8,7 +8,7 @@
     <dimen name="globalMarginLarge">24dp</dimen>
     <dimen name="globalMargin">16dp</dimen>
     <dimen name="globalMarginMid">8dp</dimen>
-
+    <dimen name="globalMarginSmall">4dp</dimen>
     <!--Global dimens-->
     <dimen name="globalPaddingLarge">24dp</dimen>
     <dimen name="globalPadding">16dp</dimen>
@@ -18,22 +18,7 @@
 
     <dimen name="cellTitleTextSize">15sp</dimen>
     <dimen name="cellSubtitleTextSize">13sp</dimen>
-
-
-
-    <!--Slider dimens-->
-    <dimen name="sliderSubtitleMarginBottom">18dp</dimen>
-    <dimen name="sliderWidth">320dp</dimen>
-    <dimen name="sliderHeight">202dp</dimen>
-    <dimen name="sliderIndicatorWidth">8dp</dimen>
-    <dimen name="sliderIndicatorHeight">8dp</dimen>
-    <dimen name="sliderSubtitleMargin">6dp</dimen>
-
-
-    <!--MultiCycler dimensions-->
-    <dimen name="moviesTileWidth">130dp</dimen>
-    <dimen name="moviesTileHeight">173dp</dimen>
-    <dimen name="overlayHeight">60dp</dimen>
-    <dimen name="movieCyclerRowHeight">233dp</dimen>
+    <dimen name="titleTextSize">16sp</dimen>
+    <dimen name="normalTextSize">14sp</dimen>
 
 </resources>

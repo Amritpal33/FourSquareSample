@@ -1,4 +1,4 @@
-package com.dinout.foursquaresample.services.models;
+package com.dinout.foursquaresample.services.models.details;
 
 import java.util.ArrayList;
 

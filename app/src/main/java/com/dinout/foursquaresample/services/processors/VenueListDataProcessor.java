@@ -26,7 +26,6 @@ public class VenueListDataProcessor implements iSectionDataProcessor
     @Override
     public boolean parseData(Object responseObject)
     {
-
         try
         {
             JSONObject response = new JSONObject((String) responseObject);

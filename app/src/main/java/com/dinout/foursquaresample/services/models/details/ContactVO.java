@@ -1,9 +1,9 @@
-package com.dinout.foursquaresample.services.models;
+package com.dinout.foursquaresample.services.models.details;
 
 /**
  * Created by amritpalsingh on 07/02/16.
  */
-class ContactVO
+public class ContactVO
 {
     private String phone;
     private String formattedPhone;

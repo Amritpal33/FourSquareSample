@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">FourSquareSample</string>
+    <string name="retry">Retry</string>
+    <string name="settings">Settings</string>
+    <string name="networkError">There is no Network connection right now.</string>
+    <string name="noItemsToDisplay">No items to display on the screen.</string>
 </resources>

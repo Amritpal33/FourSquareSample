@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageView android:id="@+id/imgSinglePoster"
+           xmlns:android="http://schemas.android.com/apk/res/android"
+           android:layout_width="80dp"
+           android:layout_height="80dp"
+           android:layout_margin="@dimen/globalMarginSmall"
+           android:scaleType="fitXY"
+           android:orientation="vertical">
+
+</ImageView>

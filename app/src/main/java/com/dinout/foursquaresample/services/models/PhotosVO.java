@@ -33,8 +33,13 @@ public class PhotosVO
         }
     }
 
-    public String getPhotoUrl()
+    public String getDefaultPhotoUrl()
     {
         return groups.get(0).getItems().get(0).getPhotoUrl();
+    }
+
+    public ArrayList<PhotoGroups> getGroups()
+    {
+        return groups;
     }
 }

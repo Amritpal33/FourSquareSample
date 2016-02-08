@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/containerVenueDetails"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@android:color/white"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imgPoster"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:scaleType="fitXY"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/globalMarginMid"
+            android:paddingLeft="@dimen/globalPadding">
+
+            <TextView
+                android:id="@+id/tvVenueName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="qwerty"
+                android:textColor="?attr/colorPrimary"
+                android:textSize="@dimen/titleTextSize"/>
+
+            <TextView
+                android:id="@+id/tvVenueAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+
+                android:paddingRight="@dimen/globalPaddingMid"
+                android:singleLine="false"
+                android:textSize="@dimen/normalTextSize"/>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/globalMarginMid"
+            android:background="@android:color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_marginTop="@dimen/globalMarginMid"
+            android:paddingLeft="@dimen/globalPadding">
+
+            <TextView
+                android:id="@+id/tvTotalCheckins"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:textSize="@dimen/normalTextSize"/>
+
+            <TextView
+                android:id="@+id/tvTotalLikes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingRight="@dimen/globalPaddingMid"
+                android:singleLine="true"
+                android:textSize="@dimen/normalTextSize"/>
+
+            <TextView
+                android:id="@+id/tvTotalRating"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:paddingRight="@dimen/globalPaddingMid"
+                android:singleLine="true"
+                android:textSize="@dimen/normalTextSize"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/globalMarginMid"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/globalMarginSmall"
+            android:layout_marginLeft="@dimen/globalMargin"
+            android:layout_marginTop="@dimen/globalMarginSmall"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Venue Photos"
+            android:textSize="@dimen/normalTextSize"/>
+
+        <include
+            android:id="@+id/containerPhotos"
+            layout="@layout/photos_smaller_row"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="@dimen/globalMarginMid"
+            android:background="@android:color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/globalMarginSmall"
+            android:layout_marginLeft="@dimen/globalMargin"
+            android:layout_marginTop="@dimen/globalMarginSmall"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="Reviews and Ratings"
+            android:textSize="@dimen/normalTextSize"/>
+
+
+        <LinearLayout
+            android:id="@+id/containerCustomerReviews"
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"/>
+
+    </LinearLayout>
+</ScrollView>
