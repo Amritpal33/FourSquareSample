@@ -32,11 +32,6 @@ public class VenuesDetailsFragment extends BaseFragment implements iWebServiceRe
 {
     VenuesVO _venue;
 
-    public VenuesDetailsFragment()
-    {
-
-    }
-
     public void setVenue(VenuesVO venue)
     {
         _venue = venue;
@@ -71,13 +66,15 @@ public class VenuesDetailsFragment extends BaseFragment implements iWebServiceRe
     @Override
     public void refreshActiveFragment()
     {
-
+        if (_venue.getVenueDetailsVO() == null)
+        {
+            executeWebService();
+        }
     }
 
     @Override
     public void onWebServiceSuccess(iSectionDataProcessor sectionDataProcessor)
     {
-        Toast.makeText(getActivity(), "success", Toast.LENGTH_SHORT).show();
         if (sectionDataProcessor instanceof VenueDetailsDataProcessor)
         {
             VenueDetailsDataProcessor processor = (VenueDetailsDataProcessor) sectionDataProcessor;
